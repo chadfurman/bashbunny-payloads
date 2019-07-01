@@ -1,17 +1,56 @@
-ATTACKMODE STORAGE HID VID_0X05AC PID_0X021E
 
-LED R 300
+ATTACKMODE STORAGE HID
+QUACK SET_LANGUAGE en
 
-Q GUI SPACE
-Q DELAY 200
-Q STRING terminal
-Q DELAY 400
+LED R 1000
+
+Q DEFAULT_DELAY 100
+Q DELAY 2000
+Q STRING "       __            /^\\"
 Q ENTER
-Q DELAY 400
-Q GUI N
-Q DELAY 100
-Q STRING cat /Volumes/BashBunny/payloads/switch2/art
-Q DELAY 100
+Q STRING "     .'  \\          / :.\\"
 Q ENTER
+Q STRING "    /     \\         | :: \\"
+Q ENTER
+Q STRING "   /   /.  \\       / ::: |"
+Q ENTER
+Q STRING "  |    |::. \\     / :::'/"
+Q ENTER
+Q STRING "  |   / \\::. |   / :::'/"
+Q ENTER
+Q STRING "  `--`   \\'  `~~~ ':'/`"
+Q ENTER
+Q STRING "          /         ("
+Q ENTER
+Q STRING "         /   0 _ 0   \\"
+Q ENTER
+Q STRING "       \\/     \\_/     \\/"
+Q ENTER
+Q STRING "     -== '.'   |   '.' ==-"
+Q ENTER
+Q STRING "       /\\    '-^-'    /\\"
+Q ENTER
+Q STRING "         \\   _   _   /"
+Q ENTER
+Q STRING "        .-`-((\\o/))-`-."
+Q ENTER
+Q STRING "   _   /     //^\\\\     \\   _"
+Q ENTER
+Q STRING " .\"o\".(    , .:::. ,    ).\"o\"."
+Q ENTER
+Q STRING " |o  o\\\\    \\:::::/    //o  o|"
+Q ENTER
+Q STRING "  \\    \\\\   |:::::|   //    /"
+Q ENTER
+Q STRING "   \\    \\\\__/:::::\\__//    /"
+Q ENTER
+Q STRING "    \\ .:.\\  `':::'`  /.:. /"
+Q ENTER
+Q STRING "     \\':: |_       _| ::'/"
+Q ENTER
+Q STRING "      `---` `\"\"\"\"\"` `---`"
+Q ENTER
+Q DELAY 2000
 
 LED G
+
